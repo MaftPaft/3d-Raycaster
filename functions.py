@@ -1,6 +1,5 @@
 import pygame as pg
 from math import *
-from random import randint
 
 ## FUNCTIONS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
