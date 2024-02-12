@@ -3,7 +3,7 @@ from math import *
 
 ## FUNCTIONS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md {
+#https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
 def intersect_line_line_vec2(startObs, endObs, origin, endpoint):
     P = pg.Vector2(startObs)
     R = (endObs - P)
@@ -18,9 +18,9 @@ def intersect_line_line_vec2(startObs, endObs, origin, endpoint):
         X  =  P + R * t
         return (X.x, X.y)
     return None
-# ------------ }
+# ------------
 
-#https://stackoverflow.com/questions/74592905/line-collision-detector-with-circles {
+#https://stackoverflow.com/questions/74592905/line-collision-detector-with-circles
 def sign(x):
     return -1 if x < 0 else 1
 
@@ -52,7 +52,7 @@ def interectLineCircle(l1, l2, cpt, r):
     tb = (xb-x1)*dx/dr + (yb-y1)*dy/dr
     xpt += [(xb + cpt[0], yb + cpt[1])] if 0 < tb < dr else []
     return xpt
-# } --------------
+# --------------
 
 
 def rotate_transform(length,angle,x,y):
